@@ -1,4 +1,6 @@
 .venv
-data
+sobel_train
+test 
+train
 yolov8n.pt
 __pycache__
