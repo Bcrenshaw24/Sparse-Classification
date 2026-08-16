@@ -3,10 +3,10 @@ import numpy as np
 
 drawing = False
 ix, iy, ex, ey = -1, -1, -1, -1
-img = cv2.imread('../data/unit_test/img1.jpg')
+img = cv2.imread('../data/mask_test/img1.png')
 clone = img.copy()
 
-result = None  # Initialize result to avoid NameError if 'q' is pressed first
+result = None 
 
 def draw_rectangle(event, x, y, flags, param):
     global ix, iy, ex, ey, drawing, img
